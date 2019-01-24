@@ -1,0 +1,68 @@
+.game-field {
+    height: 408px;
+    width: 408px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tile {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.color2 {
+    background-color: #a3d1f0;
+}
+
+.color4 {
+    background-color: #bbe9b5;
+}
+
+.color8 {
+    background-color: #ebec92;
+}
+
+.color16 {
+    background-color: #f0a4df;
+}
+
+.color32 {
+    background-color: #eec475;
+}
+
+.color64 {
+    background-color: #6275e2;
+    color: white;
+}
+
+.color128 {
+    background-color: #eb7c48;
+    color: white;
+}
+
+.color256 {
+    background-color: #e763cb;
+    color: white;
+}
+
+.color512 {
+    background-color: #3f32f1;
+    color: white;
+}
+
+.color1024 {
+    background-color: #1d7910;
+    color: white;
+}
+
+.color2048 {
+    background-color: #000000;
+    color: white;
+}
